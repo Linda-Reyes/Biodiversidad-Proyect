@@ -64,6 +64,7 @@ function App() {
           </section>
         </div>
         </header>
+
         <section className="bg-[url('/bird.svg')] h-[500px] min-w-screen bg-center bg-cover pt-10">
           <div className="pt-7">
             <h1 className='font-["Julius Sans One"] font-light  text-[#FFF67E] sm:text-4xl whitespace-break-spaces text-xl w-[250px] pl-6]'>
@@ -71,6 +72,33 @@ function App() {
             </h1>
           </div>
           <div id="sobrenosotros" className="h-[600px]"></div>
+        </section>
+
+        <section>
+          <article className="text-white bg-gray-600 ">
+            <div className="gap-3 p-6 sm:flex">
+              <div className=" sm:grid sm:mt-9 ">
+                <h2 className="text-2xl text-[#FFF67E] sm:h-[50px]">
+                  Quienes somos
+                </h2>
+                <div className="sm:w-[400px]">
+                  <p className="font-light text-[#BFEA7C] ">
+                    Descubre la riqueza única de la biodiversidad en Cundinamarca
+                    y Boyacá. Esta región alberga especies únicas en el mundo y
+                    varias endémicas, convirtiéndose en un tesoro natural
+                    invaluable. Acompáñanos en un viaje por senderos accesibles
+                    para conocer de cerca la flora, fauna y ecosistemas que hacen
+                    de este lugar un paraíso biodiverso. ¡Explora, aprende y
+                    celebra la naturaleza con nosotros!
+                  </p>
+                </div>
+              </div>
+
+              <div id="senderos" className="p-6">
+                <img className="sm:h-[auto] w-[auto]" src="/imagen1.jpg" alt="" />
+              </div>
+            </div>
+          </article>
         </section>
         
       </div>
