@@ -4,11 +4,13 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
-    
-    extend: {
-      backgroundImage: {'hero-pattern': "url('')" },
+  fontFamily: {
+    'sans': ['ui-sans-serif', 'system-ui'],
+    'serif': ['ui-serif', 'Georgia'],
+    'mono': ['ui-monospace', 'SFMono-Regular'],
+    'display': ['Oswald'],
+    'body': ['"Open Sans"'],
+    extend: {},
   },
   plugins: [],
-},
 }

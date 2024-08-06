@@ -1,11 +1,16 @@
-/*import { useEffect, useState } from "react";*/
+import { useState } from "react";
 import "./App.css";
-/*import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css"; // Importar estilos de Leaflet
-import L from "leaflet"; // Importar Leaflet para solucionar problema de iconos*/
+import L from "leaflet"; // Importar Leaflet para solucionar problema de iconos
+
 
 function App() {
-
+  const [menu, setMenu] = useState(false);
+  const submitShowMenu = () => {
+    setMenu(!menu);
+  };
+  
   return (
     <>
       <div>
