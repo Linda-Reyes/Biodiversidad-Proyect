@@ -105,11 +105,11 @@ function App() {
           </article>
         </section>
         <section>
-          <div className="grid gap-3 h-[450px] bg-[#416D19] ">
+          <div className="grid bg-[#416D19] ">     
             <h2 className="pl-3 pt-6 text-2xl text-[#BFEA7C] sm:h-[50px] ">
               Senderos
             </h2>
-            <div className="w-[320px] h-[320px] text-center ml-[35px] md:translate-x-1/2 md:w-[380px]">
+            <div className="w-[320px] h-[320px] text-center mb-[35px] ml-[35px] md:translate-x-1/2 md:w-[380px]">
               <MapContainer
                 center={monarca}
                 zoom={zoom}
@@ -188,7 +188,7 @@ function App() {
                 <h2 className="text-[#4A791E] pl-3 pt-5 font-light ml-4 text-2xl md:mt-5 md:text-4xl">Fauna</h2>
               </div>
               <div className=" grid gap-5 md:flex md:justify-center md:items-center md:gap-0 md:p-3">
-                <div className="grid gap-5 content-center justify-items-center md:gap-0 md:h-[350px] md:w-[350px] ">
+                <div className="grid gap-5 content-center justify-items-center md:gap-0 md:h-[350px] ">
                   <img
                     className="h-[300px] w-[300px] md:w-[230px] md:h-[230px]"
                     src="/conejoCampo.png"
@@ -201,7 +201,7 @@ function App() {
                   </p>
                 </div>
 
-                <div className="grid gap-5 content-center justify-items-center md:h-[350px] md:w-[350px]">
+                <div className="grid gap-5 content-center justify-items-center md:h-[350px]">
                   <img
                     className="h-[300px] w-[300px] md:w-[230px] md:h-[230px]"
                     src="ColumbaCorensis.png"
@@ -212,7 +212,7 @@ function App() {
                     región andina, aunque su distribución es más amplia.
                   </p>
                 </div>
-                <div className="grid gap-5 content-center justify-items-center md:h-[350px] md:w-[350px]">
+                <div className="grid gap-5 content-center justify-items-center md:h-[350px]">
                   <img
                     className="h-[300px] w-[300px] md:w-[230px] md:h-[230px]"
                     src="LachesisMuta.png"
@@ -241,12 +241,12 @@ function App() {
               </div>
             </section>
 
-            <section className="bg-[#9BCF53] grid gap-3 pt-5">
+            <section className="bg-[#8dbf48] grid gap-3 pt-5">
               <div className="">
                 <h2 className="text-[#4A791E] pl-3 pt-5 text-2xl ml-4 md:text-4xl ">Flora</h2>
               </div>
               <div className="  grid gap-5 md:flex md:justify-center md:items-center md:gap-0 md:p-3">
-                <div className="grid gap-5 content-center justify-items-center md:gap-0 md:h-[350px] md:w-[350px]">
+                <div className="grid gap-5 content-center justify-items-center md:gap-0 md:h-[350px]">
                   <img
                     className="h-[300px] w-[300px] md:w-[230px] md:h-[230px]"
                     src="/frailejon.png"
@@ -258,7 +258,7 @@ function App() {
                   </p>
                 </div>
 
-                <div className="grid gap-5 content-center justify-items-center md:h-[350px] md:w-[350px]">
+                <div className="grid gap-5 content-center justify-items-center md:h-[350px]">
                   <img
                     className="h-[300px] w-[300px] md:w-[230px] md:h-[230px]"
                     src="/EryngiumAndicola.png"
@@ -269,7 +269,7 @@ function App() {
                     que crece en los páramos y bosques de montaña.
                   </p>
                 </div>
-                <div className="grid gap-5 content-center justify-items-center md:h-[350px] md:w-[350px]">
+                <div className="grid gap-5 content-center justify-items-center md:h-[350px]">
                   <img className="h-[300px] w-[300px] md:w-[230px] md:h-[230px]"
                     src="/SenecioLaevis.png"
                     alt="Senecio laevis"
@@ -305,7 +305,7 @@ function App() {
           <a className='cursor-pointer hover:text-white hover:-translate-y-1 transition hover:duration-200' href="https://github.com/Dianisvibra5" target="_blank">Diana Diaz</a>
           <a className='cursor-pointer hover:text-white hover:-translate-y-1 transition hover:duration-200' href="https://github.com/jcesarrios" target="_blank">Julio Rios</a>
         </div>
-        <h3 className='text-xl font-light text-[#FFF67E]'>
+        <h3 className='flex justify-center text-xl font-light text-[#FFF67E]'>
           © Copyright todos los derechos reservados
         </h3>
       </footer>
