@@ -34,10 +34,10 @@ function App() {
               <a href="#senderos">Senderos</a>
             </li>
             <li className="hover:text-white hover:-translate-y-1 transition hover:duration-150">
-              <a href="">Experiencias</a>
+              <a href="#riquezaNatural">Riqueza Natural</a>
             </li>
             <li className="hover:text-white hover:-translate-y-1 transition hover:duration-150">
-              <a href="">Paisajes</a>
+              <a href="">Flora</a>
             </li>
           </ul>
           <button onClick={() => submitShowMenu()} className="sm:hidden">
@@ -49,11 +49,10 @@ function App() {
             />
           </button>
           <section
-            className={`fixed flex justify-center items-center transition-opacity    ${
-              menu
+            className={`fixed flex justify-center items-center transition-opacity    ${menu
                 ? "opacity-100 visible z-20 durarion-200"
                 : "opacity-0 invisible duration-200 "
-            }`}
+              }`}
           >
             <div className="h-[200px] w-screen fixed top-[60px] bottom-0 right-0 left-0 bg-gradient-to-b from-[#416D19] to-[#9BCF53]">
               <ul className="grid ml-2 font-semibold  my-4 gap-10 text-[#FFF67E]">
@@ -64,14 +63,14 @@ function App() {
                   <a href="#senderos">Senderos</a>
                 </li>
                 <li className="cursor-pointer hover:tracking-wider duration-200 ">
-                  <a href="">Experiencias</a>
+                  <a href="#riquezaNatural">Riqueza Natural</a>
                 </li>
               </ul>
             </div>
           </section>
         </div>
       </header>
-      <section className="bg-[url('/bird.svg')] h-[500px] min-w-screen bg-center bg-cover pt-10">
+      <section className="bg-[url('/bird.jpg')] h-[500px] min-w-screen bg-center bg-cover pt-10">
         <div className="pt-7">
           <h1 className='font-["Julius Sans One"] font-light  text-[#FFF67E] sm:text-4xl whitespace-break-spaces text-xl w-[250px] pl-6]'>
             Senderos y Biodiversidad CundiBoyacense
@@ -84,7 +83,7 @@ function App() {
         <article className="text-white bg-gray-600 ">
           <div className="gap-3 p-6 sm:flex">
             <div className=" sm:grid sm:mt-9 ">
-              <h2 className="text-2xl text-[#FFF67E] sm:h-[50px]">
+              <h2 className="text-2xl text-[#BFEA7C] sm:h-[50px]">
                 Quienes somos
               </h2>
               <div className="sm:w-[400px]">
@@ -95,7 +94,8 @@ function App() {
                   invaluable. Acompáñanos en un viaje por senderos accesibles
                   para conocer de cerca la flora, fauna y ecosistemas que hacen
                   de este lugar un paraíso biodiverso. ¡Explora, aprende y
-                  celebra la naturaleza con nosotros!
+                  celebra la naturaleza con nosotros: Un grupo de estudiantes de Talento Tech,
+                  que quiere dar a conocer la Biovidersidad de la Región CunduBoyacense!
                 </p>
               </div>
             </div>
@@ -167,7 +167,7 @@ function App() {
             </MapContainer>
           </div>
           <section className="">
-            <div className=" h-[420px] grid gap-5 pl-2 bg-[#D8F8A7]">
+            <div id="riquezaNatural" className=" h-[420px] grid gap-5 pl-2 bg-[#D8F8A7]">
               <h2 className="text-[#416D19] text-xl pt-5 font pl-3 md:text-5xl md:mt-6">
                 Riqueza Verde
               </h2>
@@ -196,8 +196,8 @@ function App() {
                   alt=""
                 />
                 <p className="text-[#FFFFFF] p-2">
-                  Oryctolagus cuniculus: También conocido como el "conejo de
-                  montaña" o "conejo del páramo", se encuentra en los
+                  Oryctolagus cuniculus: También conocido como el conejo de
+                  montaña o conejo del páramo, se encuentra en los
                   ecosistemas de páramo de los Andes.
                 </p>
               </div>
@@ -223,22 +223,22 @@ function App() {
                   bosques de montaña.
                 </p>
               </div>
-              
+
             </div>
             <div>
-                <p className="text-[#243A10]">
-                  Embárcate en un viaje por los senderos ecológicos de
-                  Cundinamarca y Boyacá y descubre una fauna fascinante y única.
-                  Estos ecosistemas montañosos y de páramo albergan una gran
-                  variedad de especies endémicas que no se encuentran en ningún
-                  otro lugar del mundo. Desde el escurridizo conejo de montaña
-                  hasta la serpiente venenosa de la región, cada encuentro con
-                  la vida silvestre ofrece una experiencia inolvidable. Aprecia
-                  cómo estos animales han evolucionado para adaptarse a sus
-                  hábitats específicos y contribuye a la conservación de su
-                  entorno natural visitando estas áreas protegidas.
-                </p>
-              </div>
+              <p className="text-[#243A10]">
+                Embárcate en un viaje por los senderos ecológicos de
+                Cundinamarca y Boyacá y descubre una fauna fascinante y única.
+                Estos ecosistemas montañosos y de páramo albergan una gran
+                variedad de especies endémicas que no se encuentran en ningún
+                otro lugar del mundo. Desde el escurridizo conejo de montaña
+                hasta la serpiente venenosa de la región, cada encuentro con
+                la vida silvestre ofrece una experiencia inolvidable. Aprecia
+                cómo estos animales han evolucionado para adaptarse a sus
+                hábitats específicos y contribuye a la conservación de su
+                entorno natural visitando estas áreas protegidas.
+              </p>
+            </div>
           </section>
           <section className="bg-[#9BCF53] grid gap-3 pt-5">
             <div className="">
@@ -252,7 +252,7 @@ function App() {
                   alt=""
                 />
                 <p className="text-[#FFFFFF] p-2">
-                  Espeletia pycnophylla: Conocida como "frailejón", es una
+                  Espeletia pycnophylla: Conocida como frailejón, es una
                   planta característica de los páramos de los Andes colombianos.
                 </p>
               </div>
