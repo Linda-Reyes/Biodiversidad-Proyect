@@ -101,6 +101,26 @@ function App() {
           </article>
         </section>
         
+        <section className="">
+            <div className=" h-[420px] grid gap-5 pl-2 bg-[#D8F8A7]">
+              <h2 className="text-[#416D19] text-xl pt-5 font pl-3 md:text-5xl md:mt-6">
+                Riqueza Verde
+              </h2>
+              <p className="text-[#243A10] md:p-4 md:text-xl">
+                Descubre la biodiversidad única de Cundinamarca y Boyacá. Estas
+                regiones colombianas, con sus páramos y bosques andinos,
+                albergan especies endémicas como el frailejón y el reyezuelo de
+                frente roja. Su flora y fauna no solo enriquecen nuestro
+                entorno, sino que también mantienen el equilibrio ecológico.
+                Proteger estas especies es crucial para conservar nuestro
+                patrimonio natural y asegurar que las futuras generaciones
+                disfruten de esta belleza. Únete a nosotros para celebrar y
+                preservar la biodiversidad de Cundinamarca y Boyacá.
+              </p>
+            </div>
+          </section>
+
+          
       </div>
 
     </>
