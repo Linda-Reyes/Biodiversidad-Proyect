@@ -1,4 +1,8 @@
-import './App.css'
+/*import { useEffect, useState } from "react";*/
+import "./App.css";
+/*import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import "leaflet/dist/leaflet.css"; // Importar estilos de Leaflet
+import L from "leaflet"; // Importar Leaflet para solucionar problema de iconos*/
 
 function App() {
 
@@ -25,6 +29,7 @@ function App() {
               CundiBoyacense</h1>
           </div>
         </section>
+
       </div>
 
     </>

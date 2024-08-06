@@ -5,7 +5,7 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className="bg-[url('/ciberseguridad.png')] min-h-screen min-w-screen bg-cover bg-center ">
+    <div>
     <App />
     </div>
   </React.StrictMode>
