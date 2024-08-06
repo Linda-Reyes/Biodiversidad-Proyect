@@ -64,14 +64,15 @@ function App() {
           </section>
         </div>
         </header>
-        
-        <section className=''>
-          <div className='border-white border-2'>
-            <h1 className='text-[#FFF67E] text-5xl pt-10 pr-4'>Senderos y Biodiversidad
-              CundiBoyacense</h1>
+        <section className="bg-[url('/bird.svg')] h-[500px] min-w-screen bg-center bg-cover pt-10">
+          <div className="pt-7">
+            <h1 className='font-["Julius Sans One"] font-light  text-[#FFF67E] sm:text-4xl whitespace-break-spaces text-xl w-[250px] pl-6]'>
+              Senderos y Biodiversidad CundiBoyacense
+            </h1>
           </div>
+          <div id="sobrenosotros" className="h-[600px]"></div>
         </section>
-
+        
       </div>
 
     </>
